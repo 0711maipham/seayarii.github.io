@@ -650,3 +650,25 @@ h4 {
     
     }
 }
+
+#linkedin {
+    height: 25px;
+    width: 25px;
+    background-color: #A2C3AF;
+    border: none;
+    position: fixed;
+    margin-left: 0px;
+    bottom: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#linkedin a {
+    color: white;
+    text-decoration: none;
+}
+
+#linkedin:hover {
+    background-color: #C3DECE;
+}
