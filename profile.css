@@ -209,12 +209,12 @@ h4 {
     margin: 5px;
 }
 
-a {
+p a {
     text-decoration: none;
     color: #92B6A0;
 }
 
-a:visited {
+p a:visited {
     text-decoration: none;
     color: #92B6A0;
 }
