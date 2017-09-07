@@ -24,6 +24,7 @@ body {
     margin: -70px 0 0 -170px;
     text-align: center;
     z-index: 100;
+    border: 1px dashed #494949;
 }
 
 #square:hover {
@@ -122,6 +123,40 @@ nav a:hover {
 
 }
 
+#main2 {
+    width: 525px;
+    opacity: .85;
+    border: 1px dashed #484848;
+    font-family: century gothic;
+    font-size: 13px;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin: -70px 0 0 -170px;
+    margin-bottom: 50px;
+    padding: 15px;
+
+}
+
+#main3 {
+    width: 525px;
+    opacity: .85;
+    border: 1px dashed #484848;
+    font-family: century gothic;
+    font-size: 13px;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    top: 125%;
+    left: 40%;
+    margin: -70px 0 0 -170px;
+    margin-bottom: 50px;
+    padding: 15px;
+
+}
+
 h2 {
     font-family: Courier New, Courier, monospace;
     color: #EA8E9E;
@@ -143,513 +178,6 @@ h4 {
     font-variant: none;
 }
 
-@media only screen and (max-width: 1275px) {
-    body {
-        background-color: #F5F5F5;
-    }
-    
-    #header {
-        background-image: url("https://i.imgur.com/IB245B0.jpg");
-        opacity: .7;
-        position: fixed;
-        margin-left: -200px;
-        margin-top: -620px;
-        width: 2000px;
-        height: 900px;
-        z-index: 100;
-    }
-    
-    #square {
-        background-color: white;
-        width: 300px;
-        height: 200px;
-        opacity: .7;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        z-index: 100;
-    }
-    
-    #square:hover {
-        background-color: white;
-        width: 300px;
-        height: 215px;
-        opacity: .80;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin: -70px 0 0 -170px;
-        transition: all .2s ease-in-out;
-        z-index: 100;
-    }
-    
-    #inner {
-        background-color: transparent;
-        border: 1px dashed #2E2E2E;
-        width: 250px;
-        height: 150px;
-        opacity: .7;
-        position: absolute;
-        top: 45%;
-        left: 65%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        font-variant: small-caps;
-        font-family: Courier New, Courier, monospace;
-        letter-spacing: 2px;
-        font-weight: lighter;
-        z-index: 100;
-    }
-    
-    #leftNav {
-        position: absolute;
-        left: 13%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    #rightNav {
-        position: absolute;
-        right: 16%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: garamond;
-        border: 1px dashed #717171;
-        opacity: .8;
-        background-color: white;
-        float: none;
-        width: 90px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        z-index: 100;
-    
-    }
-    
-    nav a:hover {
-        color: #E791A0;
-        text-decoration: none;
-        font-family: garamond;
-        opacity: .9;
-        background-color: white;
-        float: none;
-        width: 90px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        transition: all .5s ease-in-out;
-        z-index: 100;
-    
-    }
-    
-    #main {
-        width: 525px;
-        opacity: .8;
-        border: 1px dashed #484848;
-        font-family: century gothic;
-        font-size: 13px;
-        background-color: white;
-        z-index: 100;
-        position: absolute;
-        top: 75%;
-        left: 40%;
-        margin: -70px 0 0 -170px;
-        margin-bottom: 50px;
-        padding: 15px;
-    
-    }
-}
-
-
-
-@media only screen and (max-width: 950px) {
-    body {
-        background-color: #F5F5F5;
-    }
-    
-    #header {
-        background-image: url("https://i.imgur.com/IB245B0.jpg");
-        opacity: .7;
-        position: fixed;
-        margin-left: -200px;
-        margin-top: -620px;
-        width: 2000px;
-        height: 900px;
-        z-index: 100;
-    }
-    
-    #square {
-        background-color: white;
-        width: 300px;
-        height: 200px;
-        opacity: .7;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        z-index: 100;
-    }
-    
-    #square:hover {
-        background-color: white;
-        width: 300px;
-        height: 215px;
-        opacity: .80;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin: -70px 0 0 -170px;
-        transition: all .2s ease-in-out;
-        z-index: 100;
-    }
-    
-    #inner {
-        background-color: transparent;
-        border: 1px dashed #2E2E2E;
-        width: 250px;
-        height: 150px;
-        opacity: .7;
-        position: absolute;
-        top: 45%;
-        left: 65%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        font-variant: small-caps;
-        font-family: Courier New, Courier, monospace;
-        letter-spacing: 2px;
-        font-weight: lighter;
-        z-index: 100;
-    }
-    
-    #leftNav {
-        position: absolute;
-        left: 11%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    #rightNav {
-        position: absolute;
-        right: 16%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: garamond;
-        border: 1px dashed #717171;
-        opacity: .8;
-        background-color: white;
-        float: none;
-        width: 80px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        z-index: 100;
-    
-    }
-    
-    nav a:hover {
-        color: #E791A0;
-        text-decoration: none;
-        font-family: garamond;
-        opacity: .9;
-        background-color: white;
-        float: none;
-        width: 80px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        transition: all .5s ease-in-out;
-        z-index: 100;
-    
-    }
-    
-    #main {
-        width: 500px;
-        opacity: .8;
-        border: 1px dashed #484848;
-        font-family: century gothic;
-        font-size: 13px;
-        background-color: white;
-        z-index: 100;
-        position: absolute;
-        top: 75%;
-        left: 37%;
-        margin: -70px 0 0 -170px;
-        margin-bottom: 50px;
-        padding: 15px;
-    
-    }
-}
-
-
-@media only screen and (max-width: 550px) {
-    body {
-        background-color: #F5F5F5;
-    }
-    
-    #header {
-        background-image: url("https://i.imgur.com/IB245B0.jpg");
-        opacity: .7;
-        position: fixed;
-        margin-left: -200px;
-        margin-top: -620px;
-        width: 2000px;
-        height: 900px;
-        z-index: 100;
-    }
-    
-    #square {
-        background-color: white;
-        width: 300px;
-        height: 200px;
-        opacity: .7;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        z-index: 100;
-    }
-    
-    #square:hover {
-        background-color: white;
-        width: 300px;
-        height: 215px;
-        opacity: .80;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        margin: -70px 0 0 -170px;
-        transition: all .2s ease-in-out;
-        z-index: 100;
-    }
-    
-    #inner {
-        background-color: transparent;
-        border: 1px dashed #2E2E2E;
-        width: 250px;
-        height: 150px;
-        opacity: .7;
-        position: absolute;
-        top: 45%;
-        left: 65%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        font-variant: small-caps;
-        font-family: Courier New, Courier, monospace;
-        letter-spacing: 2px;
-        font-weight: lighter;
-        z-index: 100;
-    }
-    
-    #leftNav {
-        position: absolute;
-        left: 11%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    #rightNav {
-        position: absolute;
-        right: 16%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: garamond;
-        border: 1px dashed #717171;
-        opacity: .8;
-        background-color: white;
-        float: none;
-        width: 70px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        z-index: 100;
-    
-    }
-    
-    nav a:hover {
-        color: #E791A0;
-        text-decoration: none;
-        font-family: garamond;
-        opacity: .9;
-        background-color: white;
-        float: none;
-        width: 70px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        transition: all .5s ease-in-out;
-        z-index: 100;
-    
-    }
-    
-    #main {
-        width: 400px;
-        opacity: .8;
-        border: 1px dashed #484848;
-        font-family: century gothic;
-        font-size: 12px;
-        background-color: white;
-        z-index: 100;
-        position: absolute;
-        top: 75%;
-        left: 40%;
-        margin: -70px 0 0 -170px;
-        margin-bottom: 50px;
-        padding: 5px;
-    
-    }
-}
-
-
-@media only screen and (max-width: 320px) {
-    body {
-        background-color: #F5F5F5;
-    }
-    
-    #header {
-        background-image: url("https://i.imgur.com/IB245B0.jpg");
-        opacity: .7;
-        position: fixed;
-        margin-left: -200px;
-        margin-top: -620px;
-        width: 2000px;
-        height: 900px;
-        z-index: 100;
-    }
-    
-    #square {
-        background-color: white;
-        width: 300px;
-        height: 200px;
-        opacity: .7;
-        position: absolute;
-        top: 20%;
-        left: 57%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        z-index: 100;
-    }
-    
-    #square:hover {
-        background-color: white;
-        width: 300px;
-        height: 215px;
-        opacity: .80;
-        position: absolute;
-        top: 20%;
-        left: 57%;
-        margin: -70px 0 0 -170px;
-        transition: all .2s ease-in-out;
-        z-index: 100;
-    }
-    
-    #inner {
-        background-color: transparent;
-        border: 1px dashed #2E2E2E;
-        width: 250px;
-        height: 150px;
-        opacity: .7;
-        position: absolute;
-        top: 45%;
-        left: 65%;
-        margin: -70px 0 0 -170px;
-        text-align: center;
-        font-variant: small-caps;
-        font-family: Courier New, Courier, monospace;
-        letter-spacing: 2px;
-        font-weight: lighter;
-        z-index: 100;
-    }
-    
-    #leftNav {
-        position: absolute;
-        left: 11%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    #rightNav {
-        position: absolute;
-        right: 16%;
-        top: 44%;
-        z-index: 100;
-    }
-    
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: garamond;
-        border: 1px dashed #717171;
-        opacity: .8;
-        background-color: white;
-        float: none;
-        width: 70px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        z-index: 100;
-    
-    }
-    
-    nav a:hover {
-        color: #E791A0;
-        text-decoration: none;
-        font-family: garamond;
-        opacity: .9;
-        background-color: white;
-        float: none;
-        width: 70px;
-        padding: 10px;
-        margin: 15px;
-        text-align: center;
-        display: block;
-        transition: all .5s ease-in-out;
-        z-index: 100;
-    
-    }
-    
-    #main {
-        width: 275px;
-        opacity: .8;
-        border: 1px dashed #484848;
-        font-family: century gothic;
-        font-size: 12px;
-        background-color: white;
-        z-index: 100;
-        position: absolute;
-        top: 75%;
-        left: 59%;
-        margin: -70px 0 0 -170px;
-        margin-bottom: 50px;
-        padding: 5px;
-    
-    }
-}
 
 #linkedin {
     height: 25px;
@@ -671,4 +199,12 @@ h4 {
 
 #linkedin:hover {
     background-color: #C3DECE;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    float: left;
+    margin: 5px;
 }
