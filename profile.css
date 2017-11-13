@@ -2,6 +2,10 @@ body {
     background-color: #F5F5F5;
 }
 
+strong {
+    color: #D17888;
+}
+
 #header {
     background-image: url("https://i.imgur.com/IB245B0.jpg");
     opacity: .7;
@@ -97,7 +101,7 @@ nav a:hover {
 
 #main {
     width: 50%;
-    opacity: .85;
+    opacity: .9;
     border: 1px dashed #484848;
     font-family: century gothic;
     font-size: 13px;
@@ -164,11 +168,12 @@ h2 {
     letter-spacing: 5px;
 }
 
-img {
+#img {
     width: 200px;
     height: auto;
     border: 1px dashed #2E2E2E;
     margin: 5px;
+    overflow: hidden;
 }
 
 h4 {
@@ -220,6 +225,29 @@ p a:visited {
     color: #92B6A0;
 }
 
+@media screen and (max-width: 1210px) {
+#main3:hover {
+    margin-top: 30%;
+    z-index: 998;
+    opacity: 1;
+    transition: all 1.3s ease-in-out;
+}
+
+#main2:hover {
+    margin-top: 30%;
+    z-index: 999;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+#main1:hover {
+    margin-top: 30%;
+    z-index: 1000;
+    opacity: 1;
+    transition: all .6s ease-in-out;
+}
+}
+
 @media screen and (max-width: 1070px) {
     nav {
         margin-left: 5%;
@@ -255,18 +283,18 @@ p a:visited {
     }
 
     #main1, #main2, #main3 {
-        font-size: 150%;
+        font-size: 130%;
     }
 
     #main3:hover {
-        margin-top: 25%;
+        margin-top: 50%;
         z-index: 998;
         opacity: 1;
         transition: all 1.3s ease-in-out;
     }
 
     #main2:hover {
-        margin-top: 25%;
+        margin-top: 35%;
         z-index: 999;
         opacity: 1;
         transition: all 1s ease-in-out;
