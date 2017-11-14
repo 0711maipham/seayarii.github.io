@@ -264,48 +264,49 @@ nav {
 
 @media screen and (max-width: 1070px) {
     nav {
-        margin-left: 5.2%;
+        margin-left: 5%;
     }
 
     #leftNav {
         margin-left: 0%;
-        margin-top: 11%;
+        margin-top: 12%;
     }
     
     #rightNav {
-        margin-left: 70.5%;
-        margin-top: 11%;
+        margin-left: 68.5%;
+        margin-top: 12%;
     }
 
     #rightNav a {
-        width: 64%;
+        width: 65%;
     }
 
     nav a {
         width: 55%;
-        font-size: 150%;
+        font-size: 180%;
+        letter-spacing: 2px;
     }
 
     #square {
-        width: 400px;
-        height: 250px;
+        width: 425px;
+        height: 285px;
         opacity: .75;
         position: absolute;
         margin-top: 5%;
-        margin-left: 29.5%;
-        font-size: 145%;
+        margin-left: 28.5%;
+        font-size: 162%;
     }
 
     #inner {
-        width: 335px;
-        height: 185px;
+        width: 350px;
+        height: 210px;
     }
 
     #main {
         width: 85%;
         margin-top: 40%;
         margin-left: 6%;
-        font-size: 150%;
+        font-size: 160%;
     }
 
     #linkedin {
