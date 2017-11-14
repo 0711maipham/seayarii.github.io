@@ -225,7 +225,7 @@ p a:visited {
     color: #92B6A0;
 }
 
-@media screen and (max-width: 1210px) {
+/* @media screen and (max-width: 1210px) {
 #main3:hover {
     margin-top: 30%;
     z-index: 998;
@@ -246,7 +246,7 @@ p a:visited {
     opacity: 1;
     transition: all .6s ease-in-out;
 }
-}
+} */
 
 @media screen and (max-width: 1070px) {
     nav {
@@ -286,7 +286,16 @@ p a:visited {
         font-size: 130%;
     }
 
-    #main3:hover {
+    #main2 {
+        margin-top: 78%;
+    }
+
+    #main3 {
+        margin-top: 118%;
+        margin-bottom: 5%;
+    }
+
+    /* #main3:hover {
         margin-top: 50%;
         z-index: 998;
         opacity: 1;
@@ -305,5 +314,5 @@ p a:visited {
         z-index: 1000;
         opacity: 1;
         transition: all .6s ease-in-out;
-    }
+    } */
 }
