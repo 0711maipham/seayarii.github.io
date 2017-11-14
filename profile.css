@@ -108,7 +108,7 @@ nav a:hover {
     background-color: white;
     z-index: 100;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 22.5%;
     margin-top: 30%;
     margin-bottom: 50px;
     padding: 15px;
@@ -124,7 +124,7 @@ nav a:hover {
     background-color: white;
     z-index: 100;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 22.5%;
     margin-top: 30%;
     margin-bottom: 50px;
     padding: 15px;
@@ -140,7 +140,7 @@ nav a:hover {
     background-color: white;
     z-index: 100;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 22.5%;
     margin-top: 48%;
     padding: 15px;
 
@@ -155,7 +155,7 @@ nav a:hover {
     background-color: white;
     z-index: 100;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 22.5%;
     margin-top: 65%;
     margin-bottom: 5%;
     padding: 15px;
@@ -231,6 +231,15 @@ p a:visited {
 }
 
 @media screen and (max-width: 1210px) and (min-width: 1071px) {
+
+nav {
+    margin-left: -.3%;
+}
+
+#main1, #main2, #main3 {
+    margin-left: 25%;
+}
+
 #main3:hover {
     margin-top: 62%;
     z-index: 998;
@@ -290,6 +299,7 @@ p a:visited {
 
     #main1, #main2, #main3 {
         font-size: 130%;
+        margin-left: 25%;
     }
 
     #main2 {
