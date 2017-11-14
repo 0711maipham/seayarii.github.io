@@ -15,6 +15,24 @@ strong {
     width: 110%;
     height: 900px;
     z-index: 100;
+    animation: 1.5s ease-out 0s 1 slideInFromLeft;
+    -webkit-transition: height 1.5s;
+    transition: height 1.5s;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: .7;
+      transform: translateX(0);
+    }
+  }
+
+#header:hover {
+    height: 1100px;
 }
 
 #square {
@@ -30,14 +48,14 @@ strong {
     border: 1px dashed #494949;
 }
 
-#square:hover {
+/* #square:hover {
     background-color: white;
     width: 300px;
     height: 215px;
     opacity: .80;
     transition: all .2s ease-in-out;
     z-index: 100;
-}
+} */
 
 #inner {
     background-color: transparent;
