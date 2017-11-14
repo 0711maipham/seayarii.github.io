@@ -345,16 +345,17 @@ nav {
     }
 
     #main1, #main2, #main3 {
+        width: 85%;
         font-size: 130%;
-        margin-left: 25%;
+        margin-left: 6%;
     }
 
     #main2 {
-        margin-top: 78%;
+        margin-top: 75%;
     }
 
     #main3 {
-        margin-top: 118%;
+        margin-top: 119%;
         margin-bottom: 5%;
     }
 
