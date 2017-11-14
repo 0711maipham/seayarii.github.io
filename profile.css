@@ -42,11 +42,11 @@ strong {
 #inner {
     background-color: transparent;
     border: 1px dashed #2E2E2E;
-    width: 250px;
-    height: 150px;
+    width: 255px;
+    height: 155px;
     opacity: .7;
     position: absolute;
-    margin: 8%;
+    margin: 7%;
     text-align: center;
     font-variant: small-caps;
     font-family: Courier New, Courier, monospace;
@@ -264,7 +264,7 @@ nav {
 
 @media screen and (max-width: 1070px) {
     nav {
-        margin-left: 5%;
+        margin-left: 2%;
     }
 
     #leftNav {
@@ -273,12 +273,12 @@ nav {
     }
     
     #rightNav {
-        margin-left: 68.5%;
+        margin-left: 73.5%;
         margin-top: 12%;
     }
 
     #rightNav a {
-        width: 65%;
+        width: 68%;
     }
 
     nav a {
@@ -288,18 +288,18 @@ nav {
     }
 
     #square {
-        width: 425px;
+        width: 472px;
         height: 285px;
         opacity: .75;
         position: absolute;
         margin-top: 5%;
-        margin-left: 28.5%;
-        font-size: 162%;
+        margin-left: 25.5%;
+        font-size: 165%;
     }
 
     #inner {
-        width: 350px;
-        height: 210px;
+        width: 405px;
+        height: 220px;
     }
 
     #main {
