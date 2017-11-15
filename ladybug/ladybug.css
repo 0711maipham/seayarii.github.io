@@ -191,14 +191,14 @@ p{
 
     #input {
         margin-left: 5%;
-        width: 150%;
-        height: 80px;
+        width: 90%;
         font-size: 50px;
         margin-bottom: 0px;
     }
 
     input {
         height: 95px;
+        width: 80%;
         font-size: 50px;
     }
 
