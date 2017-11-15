@@ -5,7 +5,7 @@ body {
     background-color: #cccccc;
 }
 
-body a {
+.source {
     color: white;
     text-decoration: none;
     font-style: italic;
@@ -15,11 +15,15 @@ body a:hover {
     color: #C8FF00;
 }
 
+span.dropdown {
+    display: none;
+}
+
 span.account {
     float: right;
-    margin: 23px 10px;
+    margin: 23px 10px 23px 50px;
     color: white;
-    font-weight: 800;
+    font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 2px;
     -webkit-transition: color 1.5s;
@@ -33,18 +37,19 @@ span.account span:hover{
 }
 
 span.account a {
-    background-color: white;
-    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFFFFF;
     text-decoration: none;
     margin-left: 8px;
     border-radius: 4px;
     padding: 5px 10px 5px 10px;
+    box-shadow: 2px 2px 10px rgba(36, 36, 38, 0.59);
     -webkit-transition: background-color 1.5s;
     transition: background-color 1.5s;
 }
 
 span.account a:hover {
-    background-color: rgba(255, 255, 255, 0.66);
+    background-color: rgba(0, 0, 0, 0.13);
 }
 
 #input {
@@ -60,7 +65,15 @@ input {
     border-radius: 4px;
     padding: 5px;
     letter-spacing: 2px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
     box-shadow: 2px 2px 10px rgba(36, 36, 38, 0.59);
+}
+
+input::placeholder {
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 span.search {
@@ -73,10 +86,11 @@ span.search {
 #logo {
     color: white;
     margin: 1%;
-    padding-top: 0%;
+    margin-top: 0;
+    padding-top: 0.7%;
     font-family: 'Capriola', sans-serif;
     display: inline-table;
-    font-size: 200%;
+    font-size: 38px;
 }
 
 #nav {
@@ -84,7 +98,7 @@ span.search {
     margin-left: -1%;
     position: relative;
     width: 101.5%;
-    height: 10%;
+    height: 65px;
     background-color: rgba(0, 0, 0, 0.08);
     box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.3);
 }
@@ -123,4 +137,72 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 105%;
     letter-spacing: 1px;
+}
+
+@media screen and (max-width: 980px) {
+    #logo {
+        font-size: 40px;
+        padding-top: 1%;
+        max-height: 100%;
+    }
+
+    span.account {
+        display: none;
+    }
+
+    span.dropdown {
+        float: right;
+        margin: 13px 10px 23px 50px;
+        color: white;
+        font-weight: 800;
+        display: inline;
+        font-size: 270%;
+    }
+
+    h1 {
+        font-size: 100px;
+        letter-spacing: 15px;
+        font-weight: 100;
+    }
+
+    #tagline {
+        margin-left: 5%;
+        animation: 1.5s ease-out 0s 1 slideInFromLeft;
+    }
+
+    @keyframes slideInFromLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: .7;
+          transform: translateX(0);
+        }
+      }
+
+    #intro {
+        margin-left: 5%;
+    }
+
+    p {
+        line-height: 90%;
+    }
+
+    #input {
+        margin-left: 5%;
+        width: 150%;
+        height: 80px;
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+
+    input {
+        height: 95px;
+        font-size: 50px;
+    }
+
+    span.search {
+    font-size: 50px;
+    }
 }
