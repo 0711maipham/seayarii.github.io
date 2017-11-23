@@ -1,0 +1,63 @@
+<body>
+    <div id="main">
+        <h2>Control Panel</h2>
+        
+                <h3>Add Orchid</h3>
+                <form ng-submit="controller.addOrchid()">
+                    <input ng-model="controller.orchid.name" type="text" placeholder="Name"></input>
+                    <br>
+                    <textarea class="description" ng-model="controller.orchid.description" type="text" placeholder="Description"></textarea>
+                    <br>
+                    Price: <input class="abridged1" ng-model="controller.orchid.price" type="number" step="any" placeholder="Price"></input>
+                    <br>
+                    Quantity: <input class="abridged2" ng-model="controller.orchid.quantity" type="number" placeholder="Quantity"></input>
+                    <br>
+                    <input ng-model="controller.orchid.imgUrl" type="text" placeholder="Image URL"></input>
+                    <br>
+                    <button type="submit">Add Orchid</button>
+                </form>
+            
+                <h3>Delete Orchid</h3>
+                <form>
+                    <input ng-model="orchid.orchidId" type="number" placeholder="Orchid ID"></input>
+                    <br>
+                    <button ng-click="controller.deleteOrchid(orchid.orchidId)">Delete Orchid</button>
+                </form>
+           
+                <h3>About Page</h3>
+                <form ng-submit="controller.newAbout()">
+                    <input ng-model="controller.about.title" type="text" placeholder=Title></input>
+                    <br>
+                    <textarea class="description" ng-model="controller.about.content" type="text" placeholder="Page Content"></textarea>
+                    <br>
+                    <input ng-model="controller.about.imgUrl" type="text" placeholder="Image Url"></input>
+                    <br>
+                    <button type="submit">Submit</button>
+                    </form>
+
+                    
+                        <h3>Policy Page</h3>
+                        <form>
+                            <input ng-model="" type="text" placeholder=Title></input>
+                            <br>
+                            <textarea class="description" ng-model="controller.orchid.description" type="text" placeholder="Page Content"></textarea>
+                            <br>
+                            <button type="submit">Submit</button>
+                        </form>
+                   
+                        <h3>Contact Page</h3>
+                        <form>
+                            <input ng-model="" type="text" placeholder=Title></input>
+                            <br>
+                            <input ng-model="" type="text" placeholder="Phone Number"></input>
+                            <br>
+                            <input ng-model="" type="text" placeholder=E-mail></input>
+                            <br>
+                            <input ng-model="" type="text" placeholder="Other contact information"></input>
+                            <br>
+                            <button type="submit">Submit</button>
+                        </form>
+                    
+    </div>
+
+</body>
