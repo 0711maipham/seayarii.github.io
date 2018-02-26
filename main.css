@@ -152,6 +152,12 @@ h7 {
     letter-spacing: 1px;
 }
 
+.portItem {
+    margin: 3%;
+    width: 55%;
+    display: block;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -208,7 +214,7 @@ a:hover {
 }
 
 img {
-    width: 100%;
+    width: 60%;
     height: 150px;
     margin: 5px;
     overflow: hidden;
