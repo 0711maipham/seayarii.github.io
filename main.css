@@ -313,7 +313,7 @@ img {
   }
 
 
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
 
    #opener {
        height: 400%;
@@ -384,4 +384,4 @@ img {
         font-size: 100%;
     }
 
-  }
+  } */
