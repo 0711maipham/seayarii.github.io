@@ -306,3 +306,25 @@ img {
         opacity: 1;
     }
   }
+
+
+  @media screen and (max-width: 414px) {
+    #block1 {
+        width: 25%;
+        display: inline-block;
+        margin: 2%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+
+    .portItem {
+        margin: 3%;
+        width: 84%;
+        display: block;
+    }
+
+    * {
+        font-size: 110%;
+    }
+
+  }
