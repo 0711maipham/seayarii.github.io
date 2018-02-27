@@ -55,6 +55,23 @@ h7 {
     letter-spacing: 5px;
 }
 
+#backToTop{
+   font-size: 400%;
+   color: #ff0055; 
+   -webkit-transition: color .5s;
+   transition: color .5s;
+}
+
+#backToTop:hover {
+    color: black;
+}
+
+#upArrow {
+    position: fixed;
+    bottom: 6%;
+    right: 2%;
+}
+
 @keyframes slideInFromLeft {
     0% {
         letter-spacing: -10px;
