@@ -3,6 +3,11 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
+#contactBlock {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
 #title {
     background-color: black;
     width: 98%;
