@@ -313,14 +313,19 @@ img {
   }
 
 
-  /* @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
 
    #opener {
        height: 400%;
+       width: 127%;
+   }
+
+   #title {
+       width: 125%;
    }
 
    #kuraokami {
-       margin-left: 40%;
+       margin-left: 35%;
    }
 
    #navigation {
@@ -337,7 +342,8 @@ img {
    }
    
     html {
-        min-width: 414%;
+        min-width: 200%;
+        /* background-color: black; */
      }
 
     #block1 {
@@ -346,6 +352,7 @@ img {
         margin: 0%;
         padding: 2%;
         border-radius: 10px;
+        font-size: 125%;
     }
 
     .portItem {
@@ -357,6 +364,7 @@ img {
 
     img {
         height: 300px;
+        width: 100%;
         margin-top: -7%;
     }
 
@@ -365,9 +373,9 @@ img {
         margin-left: 5%;
     }
 
-    * {
+    /* * {
         font-size: 120%;
-    }
+    } */
     
     #contactBlock {
         font-size: 200%;
@@ -377,11 +385,11 @@ img {
     }
 
     #contactBlock a {
-        font-size: 125%;
+        font-size: 115%;
     }
 
     #intro {
         font-size: 100%;
     }
 
-  } */
+  }
