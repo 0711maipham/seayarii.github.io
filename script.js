@@ -25,3 +25,9 @@ $(document).ready(function(){
         e.preventDefault();
     })
 })
+
+// $(document).ready(function(){
+//     $('.grid-item').hover(function(){
+//         document.getElementById("grid-item1").innerHTML = "This"
+//     })
+// })

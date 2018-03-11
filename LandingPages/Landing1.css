@@ -99,8 +99,8 @@ a {
 }
 
 #hoverMe #border:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
     opacity: 1;
 }
 
