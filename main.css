@@ -455,7 +455,10 @@ p a:hover {
     }
 
     .grid-container {
-        width: 100%;
+        width: 120% !important;
     }
 
+    #portTitle {
+       padding-bottom: 8px;
+    }
   }
