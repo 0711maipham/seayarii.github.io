@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* #opener {
+    background-color: #FFB4C2;
+    background-image: url("art-color-colourful-207665.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#imageOpening {
+    width: 100%;
+}
+
+#header {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    color: white;
+}
+
+.input-group {
+    height: auto;
+    width: 40%;
+    margin: auto;
+    margin-top: 25%;
+    position: relative;
+} */
+
+h1 {
+    font-family: 'Megrim', cursive;
+    font-weight: 400;
+    letter-spacing: 20px;
+    text-shadow: 0px 2px 4px #5A5A5A;
+}
+
+h2 {
+    font-size: 20px;
+    color: #A9A9A9;
+    text-shadow: 0px 1px 1px #FFFFFF;
+}
+
+h3 {
+    font-family: 'Megrim', cursive; 
+}
+
+.carouselImg {
+    margin: auto;
+    width: 400px;
+    height: auto;
+    padding: 2%;
+}
+
+.carousel {
+    border-radius: 40px;
+}
+
+.carousel-control {
+    background-color: transparent;
+}
+
+.left {
+    border-radius: 40px 0 0 40px;
+}
+
+.right {
+    border-radius: 0px 40px 40px 0px;
+}
+
+#stationaryImg {
+    width: 350px;
+    border-radius: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+#trioImg {
+    border-radius: 100%;
+}
+
+#opening {
+    height: 100%;
+}
+
+.bg-1 { 
+    background-color: #E0F5F1; /* Green */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+    height: auto;
+    padding-bottom: 100px;
+}
+.bg-4 { 
+    background-color: #594747; /* Black Gray */
+    color: #fff;
+}
+
+.bg-5 {
+    background-color: #282828;
+    color: white;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
