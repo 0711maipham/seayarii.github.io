@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: #1C1C1C;
-    background-image: linear-gradient(#1C1C1C, #1C1C1C, #24AFAF);
+    background-image: linear-gradient(#1C1C1C, #1C1C1C, rgb(82, 82, 82));
     font-family: 'Comfortaa', cursive;
 }
 
@@ -87,11 +87,11 @@ img {
 
 h1 {
     font-size: 80px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Staatliches', cursive;;
 }
 
 h2 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Staatliches', cursive;
 }
 
 h3 {
