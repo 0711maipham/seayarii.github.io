@@ -98,6 +98,11 @@ h3 {
     font-size: 18px;
 }
 
+h4 {
+    font-size: 18px;
+    font-family: 'Staatliches', cursive;
+}
+
 .col-md-7 ul li {
     list-style-type: none;
     padding: 10px;
